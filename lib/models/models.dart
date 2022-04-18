@@ -1,0 +1,1 @@
+export 'package:components2/models/menu_opt.dart';
