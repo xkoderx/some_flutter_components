@@ -5,14 +5,14 @@ class AppTheme {
   static const Color primaryd = Colors.red;
   static final ThemeData lightTheme = ThemeData.light().copyWith(
       primaryColor: primary,
-      appBarTheme: const AppBarTheme(color: primary),
+      appBarTheme: const AppBarTheme(backgroundColor: primary),
       textButtonTheme:
-          TextButtonThemeData(style: TextButton.styleFrom(primary: primary)),
+          TextButtonThemeData(style: TextButton.styleFrom(foregroundColor: primary)),
       floatingActionButtonTheme:
           const FloatingActionButtonThemeData(backgroundColor: primary),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-          primary: primary,
+          backgroundColor: primary,
           shape: const StadiumBorder(),
         ),
       ),
@@ -30,5 +30,5 @@ class AppTheme {
             borderRadius: BorderRadius.all(Radius.circular(10)),
           )));
   static final ThemeData darkTheme = ThemeData.dark().copyWith(
-      primaryColor: primaryd, appBarTheme: const AppBarTheme(color: primaryd));
+      primaryColor: primaryd, appBarTheme: const AppBarTheme(backgroundColor: primaryd));
 }

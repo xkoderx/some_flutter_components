@@ -21,9 +21,9 @@ class CardScreen extends StatelessWidget {
             CustomCardType1(),
             SizedBox(height: 10),
             CustomCardType2(
-              name: 'Karina azulita uwu',
+              name: 'Ling Morado uwu',
               imageUrl:
-                  'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmlbb.mobacompanion.com%2Fwp-content%2Fuploads%2Fsites%2F2%2F2020%2F01%2Fkarina_shadow_blade.jpg&f=1&nofb=1',
+                  'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdailyspin.id%2Fwp-content%2Fuploads%2F2021%2F06%2Fling-night-shade-skin.jpg&f=1&nofb=1&ipt=05ce7c981eed49c8145a09892d2de915b462426032ed7c1f3abcae1003d553d5',
             ),
             CustomCardType1(),
             SizedBox(height: 10),
