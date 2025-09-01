@@ -1,16 +1,32 @@
-# components2
+# Componentes en Flutter
 
-A new Flutter project.
+Un proyecto basico de flutter que demuestra el uso y el comprendimiento de los componentes mas basicos y de los elementos escenciales a la hora de aprender este framework, tambien se ven cosas de nivel intermedio, como mapas JSON peticiones http asincronas hacia un API , y de nivel avanzado el infinite scrollview
 
-## Getting Started
+**Realizado en el curso de [Fernando Herrera](https://fernando-herrera.com/) de en [Udemy](https://www.udemy.com/course/flutter-ios-android-fernando-herrera/) , SECCION #6**
 
-This project is a starting point for a Flutter application.
+# Demo
 
-A few resources to get you started if this is your first Flutter project:
+![img](/assets/repo/gif.gif)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# Widgets:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- ListView
+- Scaffold, Column, Row, AppBar, Forms
+- Pull To Refresh
+- InfiniteScrollView
+- ListView
+- ListViewBuilder
+- AppBarTheme
+- FormController
+- Card
+- Theme, Clases,Widgets y Metodos Personalizados
+
+## Tema Personalizado
+```dart
+ThemeData.copywith(){
+    
+}
+```
+## Copyright
+**Todos los Derechos Reservados 2025**
+**[ReyAcido](https://github.com/xkoderx)** ©️
